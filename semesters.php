@@ -1,0 +1,7 @@
+CREATE TABLE semesters (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    label VARCHAR(20) NOT NULL,       
+    academic_year VARCHAR(20) NOT NULL,
+    is_active BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
